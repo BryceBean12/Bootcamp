@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+    <body>
+        <h1>CSS Position</h1>
+        <h2>Position Rule #1 = Do Not Abuse Position</h2>
+        <p>Five Values for the position property:</p>
+        <ol>
+            <li>Static</li>
+            <li>Relative</li>
+            <li>Absolute</li>
+            <li>Fixed</li>
+            <li>Sticky</li>
+        </ol>
+        <p>Some good uses of the position property include</p>
+        <ul>
+            <li>Breaking the Plane of a container with another element.</li>
+            <li>Navbar that always remains in place (at the top of your window)</li>
+            <li>Cookie notice that remain fixed</li>
+        </ul>
+        <h3>Static</h3>
+        <p><em>The default value of position.</em></p>
+        <div class="box static"></div>
+        <h3>Relative</h3>
+        <p>The element is positioned <em>relative</em> to its normal position in the document flow. Left, top, right, and bottom will move your element.</p>
+        <div class="box relative"></div>
+        <p>The element is positioned <em>relative</em> to its closest positioned ancestor. Left, top, right, and bottom will move your element. <strong>WHen you absolutely position an element, you must relatively position its parent.</strong></p>
+        <div class="box relative">
+            <div class="circle absolute"></div>
+        </div>
+        <h4>Fixed</h4>
+        
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+
+
+
+h1{
+    color: rebeccapurple;
+    margin-bottom: 20px;
+}
+
+body{
+    padding: 20px;
+}
+
+.parent{
+    background-color: aquamarine;
+    min-height: 300px;
+    /*Flex container*/
+    /* Three amigos of flexbox */
+    display: flex;
+    /* main axis */
+    justify-content: center;
+    /* cross axis */
+    align-items: center;
+    gap: 20px;
+}
+
+.child{
+    background-color: coral;
+    min-height: 200px;
+    border: 1px dotted red;
+    /* border: 1px dotted red; */
+    /* flex item */
+    
+    flex: 1;
+}
+
+.brat{
+    /* flex item properties */
+    align-self: flex-start;
+}
