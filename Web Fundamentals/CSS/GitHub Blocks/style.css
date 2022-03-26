@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+
+.blue{
+
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pink{
+
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.green{
+    background-color: lime;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+h2{
+    text-align: center;
+}
