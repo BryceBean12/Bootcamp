@@ -1,17 +1,18 @@
 .nav {
-    background-color: #333333;
+    background-color: black;
     color: #ffffff;
     height: 100px;
-    width: 1000px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 
 .nav-title {
     margin-left: 20px;
 }
-
 
 .nav-links {
     display: flex;
@@ -35,10 +36,15 @@
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #f3f3f3;
     font-family: 'Roboto', sans-serif;
@@ -95,3 +101,7 @@ body {
 a {
     color: #3a81e6;
 }
+
+    h4{
+        background-color: grey;
+        width: 100px;
